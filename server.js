@@ -12,7 +12,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 
 // Importer les modules
-import n8nModule from './modules/N8N';
+import n8nModule from './modules/N8N.js';
 
 // Charger les variables d'environnement
 dotenv.config();
