@@ -175,6 +175,17 @@ async function main() {
         res.status(500).json({ error: error.message });
       }
     });
+    // GET endpoint pour mcp-remote compatibility
+    app.get('/mcp', (req, res) => {
+      log('info', 'GET /mcp - MCP endpoint info');
+      res.json({
+        protocol: 'MCP',
+        version: '1.0.0',
+        transport: 'HTTP',
+        capabilities: ['tools/list', 'tools/call'],
+        status: 'ready'
+      });
+    });
 
     // Endpoint pour voir les logs
     app.get('/logs', (req, res) => {
