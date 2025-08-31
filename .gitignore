@@ -1,0 +1,31 @@
+# Dépendances Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Variables d'environnement (SECRETS - TRÈS IMPORTANT)
+.env
+
+# Logs
+*.log
+logs/
+
+# Fichiers système
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Divers
+.nyc_output/
+coverage/

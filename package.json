@@ -1,0 +1,28 @@
+{
+  "name": "mydigipal-mcp",
+  "version": "1.0.0",
+  "description": "MCP server pour MyDigiPal - Marketing Digital Agency",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "axios": "^1.7.9",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  },
+  "keywords": [
+    "mcp",
+    "n8n", 
+    "marketing",
+    "automation",
+    "google-ads",
+    "meta-ads",
+    "analytics"
+  ],
+  "author": "MyDigiPal",
+  "license": "ISC"
+}
